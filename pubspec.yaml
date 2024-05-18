@@ -1,18 +1,16 @@
 name: flutter_correios
 description: Biblioteca para fazer rastreio e consultar CEP, utilizando umas das melhores, senão a melhor API (postmon).
-version: 1.0.5
+version: 1.0.6
 author: João Paulo <joaopaulo.jpo@gmail.com>
 homepage: https://github.com/jpdroid/flutter-correios
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.12.0"
+  sdk: '>=3.1.5 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  http: ^0.13.3
+  http: ^1.0.0
 
 dev_dependencies:
   flutter_test:
